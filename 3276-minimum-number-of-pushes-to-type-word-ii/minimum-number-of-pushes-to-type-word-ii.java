@@ -1,26 +1,19 @@
 class Solution {
     public int minimumPushes(String word) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        for(int i=0; i<word.length(); i++){
-            char c = word.charAt(i);
-            map.put(c, map.getOrDefault(c, 0) + 1);
-
+        int lfreq[] = new int[26];
+        int count =0;
+        for(Character c: word.toCharArray()){
+            lfreq[c - 'a']++;
         }
-        PriorityQueue<Map.Entry<Character, Integer>> maxHeap =
-                new PriorityQueue<>((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()));
-
-        maxHeap.addAll(map.entrySet());
-        int count = 0;
-        for(int j=1; j <= map.size(); j++){
-            Map.Entry<Character, Integer> entry = maxHeap.poll();
-            if (j <= 8)  /*calculates pushes for used character that should be priotised first and so on for rest of condition according to priority*/
-                count += entry.getValue();
-            else if(j > 8 && j <= 16)
-                count += entry.getValue()*2;
-            else if(j > 16 && j <= 24)
-                count += entry.getValue()*3;
-            else
-            count += entry.getValue()*4;
+        Integer freq[] = new Integer[26];
+        for(int i =0 ; i<26; i++){
+            freq[i] = lfreq[i];
+        }
+        Arrays.sort(freq , Collections.reverseOrder());
+        for(int i =0 ; i<26 ; i++){
+            if(freq[i] == 0) break;
+            int a = freq[i];
+            count += (i/8 + 1)*freq[i];
         }
         return count;
     }
