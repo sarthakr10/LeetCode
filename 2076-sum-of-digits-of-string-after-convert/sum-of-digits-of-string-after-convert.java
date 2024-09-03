@@ -1,17 +1,25 @@
 class Solution {
     public int getLucky(String s, int k) {
-        StringBuilder str  = new StringBuilder();
+        int sum =0;
         for(char c : s.toCharArray()){
-            str.append(c - 'a' + 1);
-        }
-        while(k>0){
-            int temp =0;
-            for(char c : str.toString().toCharArray()){
-                temp += c - '0';
+            int temp= c - 96;
+            while(temp>0){
+                sum += temp%10;
+                temp /= 10;
             }
-            str = new StringBuilder(String.valueOf(temp));
+        }
+        k--;
+        int num = sum;
+        while(k>0){
+            sum =0;
+            int temp = num;
+            while(temp>0){
+                sum += temp%10;
+                temp /= 10;
+            }
+            num = sum;
             k--;
         }
-        return Integer.parseInt(str.toString());
+        return sum;
     }
 }
