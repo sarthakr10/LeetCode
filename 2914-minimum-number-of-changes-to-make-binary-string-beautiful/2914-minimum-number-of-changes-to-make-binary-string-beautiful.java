@@ -1,24 +1,13 @@
 class Solution {
     public int minChanges(String s) {
         int n = s.length();
-        char ch = s.charAt(0);
-        int count =0;
-        int change = 0;
-        for(int i = 0 ; i<n ; i++){
-            if(s.charAt(i) == ch){
-                count++;
-                continue;
+        int change =0;
+        int i = 0;
+        while(i<n){
+            if(s.charAt(i) != s.charAt(i+1)){
+                change++;
             }
-            if(count%2==0){
-                count = 1;
-            }
-            else{
-                //change the character
-                change += 1;
-                count =0;
-                
-            }
-            ch = s.charAt(i);
+            i += 2;
         }
         return change;
     }
