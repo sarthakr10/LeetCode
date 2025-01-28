@@ -6,6 +6,7 @@ HELLO BUDDY THIS IS LEETCODE ACCOUNT - <a href ="https://leetcode.com/u/sarthakr
 |  |
 | ------- |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sarthakr10/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2358-number-of-ways-to-split-array](https://github.com/sarthakr10/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sarthakr10/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## String
@@ -18,6 +19,7 @@ HELLO BUDDY THIS IS LEETCODE ACCOUNT - <a href ="https://leetcode.com/u/sarthakr
 |  |
 | ------- |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sarthakr10/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sarthakr10/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/sarthakr10/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sarthakr10/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -29,4 +31,20 @@ HELLO BUDDY THIS IS LEETCODE ACCOUNT - <a href ="https://leetcode.com/u/sarthakr
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sarthakr10/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Binary Search
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Greedy
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Sliding Window
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Sorting
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/sarthakr10/LeetCode/tree/master/1966-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
